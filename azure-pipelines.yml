@@ -3,10 +3,11 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest' 
+
+
 steps:
 - task: CmdLine@2
   inputs:
     script: |
-      echo Write your commands here
-      
-      echo Hello world
+      echo Saida para Log      
+      echo Saida dois
