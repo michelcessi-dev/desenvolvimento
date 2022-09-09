@@ -8,9 +8,10 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-
-steps:
-- task: Tarefa1@1
+  
+- task: CmdLine@2
   inputs:
-    versionSpec: 'Versão1'
-  displayName: 'Testando YYAML'
+    script: |
+      echo Write your commands here
+      
+      echo Hello world
